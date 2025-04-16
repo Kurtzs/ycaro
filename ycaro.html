@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio de Ycaro</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    header h1 {
+      font-size: 3.5rem;
+      margin-bottom: 10px;
+      animation: fadeInDown 1s ease-out;
+    }
+
+    header p {
+      font-size: 1.5rem;
+      color: #ccc;
+      animation: fadeInDown 1.3s ease-out;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 50px auto;
+      padding: 0 30px;
+    }
+
+    section {
+      margin-bottom: 60px;
+      animation: fadeIn 1.2s ease-in;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+      border-left: 6px solid #00ffff;
+      padding-left: 15px;
+      margin-bottom: 25px;
+      color: #00ffff;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #e0e0e0;
+    }
+
+    .projeto {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 25px;
+      border-radius: 12px;
+      margin-bottom: 30px;
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .projeto:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 30px rgba(0, 255, 255, 0.3);
+    }
+
+    .projeto h3 {
+      font-size: 1.8rem;
+      color: #00ffff;
+    }
+
+    .projeto a {
+      color: #00ffff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .projeto a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px;
+      background-color: #111;
+      color: #888;
+      margin-top: 80px;
+    }
+
+    a {
+      color: #00ffff;
+    }
+
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-40px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: scale(0.98);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.5rem;
+      }
+
+      h2 {
+        font-size: 2rem;
+      }
+
+      .container {
+        padding: 0 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ycaro</h1>
+    <p>Desenvolvedor Front-End | Designer de Interfaces</p>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>Sobre Mim</h2>
+      <p>Sou Ycaro, um entusiasta da tecnologia e design, focado em transformar ideias em experiências digitais impactantes. Gosto de criar interfaces que combinam estética moderna com funcionalidade. Com atenção aos detalhes e paixão por inovação, busco sempre entregar projetos que surpreendem visualmente e encantam o usuário.</p>
+    </section>
+
+    <section>
+      <h2>Projetos</h2>
+
+      <div class="projeto">
+        <h3>💼 Agência Criativa</h3>
+        <p>Landing page impactante para uma agência de branding digital. Design limpo, responsivo e com animações suaves.</p>
+        <a href="#">🔗 Ver Projeto</a>
+      </div>
+
+      <div class="projeto">
+        <h3>🖥️ Portfólio Dark Mode</h3>
+        <p>Portfólio pessoal com tema escuro, focado em animações e estilo cyberpunk.</p>
+        <a href="#">🔗 Ver Projeto</a>
+      </div>
+
+      <div class="projeto">
+        <h3>📱 App de Tarefas</h3>
+        <p>Interface front-end de um app de produtividade com foco em minimalismo e UX.</p>
+        <a href="#">🔗 Ver Projeto</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Contato</h2>
+      <p>📧 Email: <a href="mailto:ycaro@email.com">ycaro@email.com</a></p>
+      <p>🔗 LinkedIn: <a href="https://linkedin.com/in/ycaro" target="_blank">linkedin.com/in/ycaro</a></p>
+      <p>🐙 GitHub: <a href="https://github.com/ycaro" target="_blank">github.com/ycaro</a></p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Ycaro. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
+  
